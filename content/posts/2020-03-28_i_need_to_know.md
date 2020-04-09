@@ -11,14 +11,14 @@ The lyrics hurt more than ever.
 <br/>
 
 
-This is the courage that _you_ gave me
+> This is the courage that **you** gave me
 
-So I want to use it for _you_
+> So I want to use it for **you**
 
-This is the love that _you_ helped me grow
+> This is the love that **you** helped me grow
 
-So it won't mean anything if it's not with _you_
+> So it won't mean anything if it's not with **you**
 
-Is there anything that love can still do?
+> Is there anything that love can still do?
 
-_Is there anything that I can still do?_
+> **Is there anything that I can still do?**
