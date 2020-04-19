@@ -7,6 +7,8 @@ then
     exit 1;
 fi
 
+SHA="$(git rev-parse HEAD | head -c7)"
+
 echo "Deleting old publication"
 rm -rf public
 mkdir public
@@ -23,7 +25,7 @@ echo "Generating site"
 hugo -D -v --theme er33
 
 echo "Updating gh-pages branch"
-cd public && git add --all && git commit -m "update gh-pages (publish.sh)"
+cd public && git add --all && git commit -m "update gh-pages (publish.sh @ $SHA)"
 
 #echo "Pushing to github"
 #git push --all
