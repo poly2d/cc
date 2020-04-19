@@ -1,3 +1,6 @@
-baseURL = "https://poly2d.github.io/33days"
+baseURL = "https://poly2d.github.io/"
 languageCode = "en-us"
-title = "33 days"
+title = "Cluster C"
+
+paginate = 20
+paginatePath = "p"
