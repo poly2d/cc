@@ -1,5 +1,5 @@
 ---
-title: day 4 - i need to know
+title: i need to know
 date: 2020-03-28
 type: "posts"
 ---

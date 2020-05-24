@@ -1,5 +1,5 @@
 ---
-title: day 20 - on emotional connection, part 1
+title: on emotional connection, part 1
 date: 2020-04-13
 type: "posts"
 ---
@@ -8,7 +8,7 @@ I'm not quite sure where to start for what I said in the previous post, but I fi
 
 A common denominator that I see across the several is the concepts of attraction, affection, and connection. For this post I'll see if I can make sense of those terms and a few related ones, solely based on MW. Fingers crossed for not too many circular definitions.
 
-<br/> 
+<br/>
 
 [Affection](https://www.merriam-webster.com/dictionary/affection) feels like the easiest to grasp.
 
@@ -16,7 +16,7 @@ A common denominator that I see across the several is the concepts of attraction
 
 I think I know what that feels like? I wasn't really sure how to describe _attachment_ though.
 
-> [attached](https://www.merriam-webster.com/dictionary/attached) | 2 : **emotionally connected** : having strong feelings of affection or connection 
+> [attached](https://www.merriam-webster.com/dictionary/attached) | 2 : **emotionally connected** : having strong feelings of affection or connection
 
 WOW, there's the e-word AND the c-word. I'll save them for later, but see where I'm going with this?  
 
@@ -36,13 +36,13 @@ Up next is [attraction](https://www.merriam-webster.com/dictionary/attraction).
 
 And just to hone in on specific words within the definition:
 
-> [interest](https://www.merriam-webster.com/dictionary/interest) | 1a : a feeling that accompanies or causes special attention to something or someone 
+> [interest](https://www.merriam-webster.com/dictionary/interest) | 1a : a feeling that accompanies or causes special attention to something or someone
 
 > [emotion](https://www.merriam-webster.com/dictionary/emotion) | 1a : a conscious mental reaction (such as anger or fear) subjectively experienced as strong feeling usually directed toward a specific object and typically accompanied by physiological and behavioral changes in the body
 
 > b : a state of feeling
 
-It seems clear that _interest_ is a feelings that have a specific target. For the individual experiencing those feelings, the target could be described as _attractive_, or having properties that the individual finds attractive. Then I guess the term _attraction_ describes this (for now, unidirectional) process. 
+It seems clear that _interest_ is a feelings that have a specific target. For the individual experiencing those feelings, the target could be described as _attractive_, or having properties that the individual finds attractive. Then I guess the term _attraction_ describes this (for now, unidirectional) process.
 
 I'm not sure what I was looking for with _emotion_ - I feel 1a seems to lean towards negative reactions, but I think emotions could encompass positive reactions too (e.g extreme joy). Reactions are caused by external forces, so I tend to agree with 1a suggesting that there is a target that the feeling is projected onto. I might be overgeneralizing or mixing up cause-and-effect here, but I think it's fair to say positive emotions have an attractive targets associated with them. On the contrary, the negative emotions could be hand-in-hand with unattractive targets.
 
@@ -53,15 +53,15 @@ I feel the most abstract is [connection](https://www.merriam-webster.com/diction
 
 > [connection](https://www.merriam-webster.com/dictionary/connection) | 3 : a person connected with another especially by ~~marriage, kinship, or~~ common interest
 
-> [connect](https://www.merriam-webster.com/dictionary/connect) | 4 : to have or establish a rapport 
+> [connect](https://www.merriam-webster.com/dictionary/connect) | 4 : to have or establish a rapport
 
 > [rapport](https://www.merriam-webster.com/dictionary/rapport) | : a friendly, harmonious relationship especially : a relationship characterized by agreement, mutual understanding, or empathy that makes communication possible or easy
 
 
 _(* I don't feel like going down what is likely a rabbit hole of [social](https://www.merriam-webster.com/dictionary/social) [connected](https://www.merriam-webster.com/dictionary/connected)-ness, so I'll leave that out for now.)_
 
-I guess common _interest_ means these individuals experience _attraction_ towards a common target (this could be, for example, specific genres of music). _Rapport_ is described by common understanding and empathy. For a connection based on common interest, I'm inclined to say that's facilitated by the shared experience in being subject to attraction to the common target (the shared interest). 
+I guess common _interest_ means these individuals experience _attraction_ towards a common target (this could be, for example, specific genres of music). _Rapport_ is described by common understanding and empathy. For a connection based on common interest, I'm inclined to say that's facilitated by the shared experience in being subject to attraction to the common target (the shared interest).
 
-I used interest on my first pass since it's in the definition, but I figure the _basis_ for the connection could be anything as long as it helps establish rapport - such as shared experiences or distastes. 
+I used interest on my first pass since it's in the definition, but I figure the _basis_ for the connection could be anything as long as it helps establish rapport - such as shared experiences or distastes.
 
 It's getting long, so I'll stop here for now and continue in the following post.
