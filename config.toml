@@ -1,6 +1,9 @@
 baseURL = "https://cc.poly2d.xyz"
 languageCode = "en-us"
-title = "Cluster C"
+title = "cc"
 
-paginate = 20
+paginate = 10
 paginatePath = "p"
+
+[params]
+  showTagCloud = false
