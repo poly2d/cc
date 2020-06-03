@@ -4,9 +4,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta content='text/html; charset=utf-8' http-equiv='content-type' />
 
-  <title>Cluster C</title>
-  <meta content='Cluster C' property='title' />
-  <meta content='Cluster C' property='og:title' />
+  <title>cc</title>
+  <meta content='cc' property='title' />
+  <meta content='cc' property='og:title' />
 
 
 <meta property="og:description" content="" />
@@ -44,12 +44,12 @@
 
 type="image/x-icon"/>
 
-<link href='/feed.xml' rel="alternate" type="application/atom+xml" title="Cluster C" />
+<link href='/feed.xml' rel="alternate" type="application/atom+xml" title="cc" />
 </head>
 <body class="global-font">
   <nav class=" justify-between border-box pa3 pl3-l pr2-l mt1 mt0-ns" id="navbar">
   <div class="flex">
-    <a class="f4 fw6 ttu no-underline dim bg-main-color pv1 ph2 br2" id="site-title" href='/' title="Home">Cluster C</a>
+    <a class="f4 fw6 ttu no-underline dim bg-main-color pv1 ph2 br2" id="site-title" href='/' title="Home">cc</a>
   </div>
   
 </nav>
@@ -226,31 +226,20 @@ type="image/x-icon"/>
       </p>
     </li>
     
-    <li class="mb2">
-      <a class="f4 heading-color heading-font fw6 no-underline" href="https://cc.poly2d.xyz/posts/2020-03-24_meaning/">
-        meaning
-      </a>
-      <p class="f5 mt1 silver">
-        <time>
-          
-          <b>day 0</b> /
-          24 Mar 2020
-        </time>
-        
-        
-        
-      </p>
-    </li>
-    
   </ul>
 </main>
 
 
-<div class="dn tr fixed right-2" id="tag-cloud">
-    tags <br>
-    
-</div>
 
+<div class="pagination tc db fixed-l bottom-2-l right-2-l mb3 mb0-l">
+
+<a id="scroll-to-top" class="f6 o-0 link br2 ph2 pv1 mb1 bg-main-color pointer" onclick="topFunction()" style="color: #fff; visibility: hidden; display: none; transition: opacity .5s, visibility .5s;" title="back to top">back to top</a>
+<br>
+<p class="mb0 mt2">Page 1 of 2 <br>
+  <a href="/p/2/">Older Posts</a>
+  
+</p>
+</div>
 
 
   <footer class="content-width mt0 mt5-l mb4 f6 center ph3 gray tc tl-l">
@@ -270,16 +259,6 @@ var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
 
-  
-  if (document.getElementById("tag-cloud") !== null) { 
-    if (prevScrollpos > currentScrollPos) { 
-      document.getElementById("tag-cloud").style.visibility = "visible";
-      document.getElementById("tag-cloud").style.opacity = "1";
-    } else {
-      document.getElementById("tag-cloud").style.visibility = "hidden";
-      document.getElementById("tag-cloud").style.opacity = "0";
-    }
-  }
   
 
   
