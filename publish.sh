@@ -22,7 +22,7 @@ echo "Removing existing files"
 rm -rf public/*
 
 echo "Generating site"
-hugo -D -v --theme er33
+hugo -D -v --theme er
 
 echo "Updating gh-pages branch"
 cd public && git add --all && git commit -m "update gh-pages (publish.sh @ $SHA)"
