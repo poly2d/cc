@@ -1,6 +1,6 @@
 public
 
 content/drafts
-themes/er33_local
+themes/*_local
 
 .DS_Store
