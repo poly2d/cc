@@ -1,0 +1,38 @@
+{{ define "main" }}
+{{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
+<main class="center mv4 content-width ph3">
+  <p class="mt1 gray">
+  Not quite
+  <a class="heading-color no-underline"href="https://colorcodedlyrics.com/2018/11/twice-young-wild">
+    'young & wild'
+  </a>.
+  Please note the dates of the posts.
+  </p>
+  <hr class="dn db-l ml0-l gray w3"><br/>
+  <ul class="list pa0">
+    {{ range $paginator.Pages }}
+    <li class="mb2">
+      <a class="f4 heading-color heading-font fw6 no-underline" href="{{ .Permalink }}">
+        {{ .Title }}
+      </a>
+      <p class="f5 mt1 silver">
+        <time>
+          <!-- number of days elapsed -->
+          <b>day {{ div (sub .Date.Unix 1585008000) 86400 }}</b> /
+          {{ .Date.Format "02 Jan 2006" }}
+        </time>
+        {{ if or .Params.tags .Params.categories }} | {{ end }}
+        {{ if isset .Params "categories" }}
+        categories: [ {{ range .Params.categories }}<a href='{{ "/categories/" | relLangURL }}{{ . | urlize }}' class="link silver">{{ . }}</a> {{ end }} ]
+        {{ end }}
+        {{ if isset .Params "tags" }}
+        tags: [ {{ range .Params.tags }}<a href='{{ "/tags/" | relLangURL }}{{ . | urlize }}' class="link silver">{{ . }}</a> {{ end }} ]
+        {{ end }}
+      </p>
+    </li>
+    {{ end }}
+  </ul>
+</main>
+{{ partial "tag_cloud.html" . }}
+{{ partial "pagination.html" . }}
+{{ end }}
