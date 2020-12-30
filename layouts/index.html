@@ -1,21 +1,16 @@
 {{ define "main" }}
 {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
 <main class="center mv4 content-width ph3">
-  <p class="mt1 gray">
-  Not quite
-  <a class="heading-color no-underline"href="https://colorcodedlyrics.com/2018/11/twice-young-wild">
-    'young & wild'
-  </a>.
-  Please note the dates of the posts.
-  </p>
-  <hr class="dn db-l ml0-l gray w3"><br/>
+  {{ if eq 1 $paginator.PageNumber}}
+  {{ partial "links.html" . }}
+  {{ end}}
   <ul class="list pa0">
     {{ range $paginator.Pages }}
     <li class="mb2">
-      <a class="f4 heading-color heading-font fw6 no-underline" href="{{ .Permalink }}">
+      <a class="f5 heading-color heading-font fw6 no-underline link" href="{{ .Permalink }}">
         {{ .Title }}
       </a>
-      <p class="f5 mt1 silver">
+      <p class="f6 mt1 silver">
         <time>
           <!-- number of days elapsed -->
           <b>day {{ div (sub .Date.Unix 1585008000) 86400 }}</b> /
