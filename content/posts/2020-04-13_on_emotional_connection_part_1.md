@@ -1,5 +1,5 @@
 ---
-title: on emotional connection, part 1
+title: On Emotional Connection, part 1
 date: 2020-04-13
 type: "posts"
 ---

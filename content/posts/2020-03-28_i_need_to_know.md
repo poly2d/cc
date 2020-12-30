@@ -1,5 +1,5 @@
 ---
-title: i need to know
+title: I Need to Know
 date: 2020-03-28
 type: "posts"
 ---
