@@ -6,4 +6,4 @@ paginate = 10
 paginatePath = "p"
 
 [params]
-  showTagCloud = false
+  showTagCloud = true

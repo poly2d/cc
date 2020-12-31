@@ -2,6 +2,7 @@
 title: Read the Air
 date: 2020-04-08
 type: "posts"
+tags: ["rant"]
 ---
 
 If my message didn't make sense - that was my nice way of saying, "fuck off because you're not helping me right now."

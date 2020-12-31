@@ -2,6 +2,7 @@
 title: 変わらないもの
 date: 2020-03-13
 type: "posts"
+tags: ["piano", "youtube"]
 ---
 
 {{< youtube _xTmQi57xmk >}}

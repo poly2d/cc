@@ -2,6 +2,7 @@
 title: On Emotional Connection, part 1
 date: 2020-04-13
 type: "posts"
+tags: ["muse", "rant"]
 ---
 
 I'm not quite sure where to start for what I said in the previous post, but I figure I at the end of the day I want to understand what love is, so why not use the MW definitons of [love](https://www.merriam-webster.com/dictionary/love) as an entry point? Not like I'm going to understand in one day, but a north star would be helpful because I'm sure I'll get lost along the way.

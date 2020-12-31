@@ -2,6 +2,7 @@
 title: On Emotional Connection, part 2
 date: 2020-04-17
 type: "posts"
+tags: ["muse", "rant"]
 ---
 
 Continuing the ludicrous exploration which set off my previous post, I'd like to revisit the term _attached_. The definition is reproduced below:
