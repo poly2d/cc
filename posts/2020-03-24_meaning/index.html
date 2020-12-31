@@ -74,8 +74,10 @@ type="image/x-icon"/>
         24 Mar 2020
       </time>
     
+     | 
     
     
+    tags: [ <a href='/tags/rant' class="link silver">rant</a>  ]
     
   </p>
   <div class="lh-copy post-content"><p>Did my life lose all meaning?</p>
@@ -105,7 +107,7 @@ type="image/x-icon"/>
 <a id="scroll-to-top" class="f6 o-0 link br2 ph2 pv1 mb1 bg-main-color pointer" onclick="topFunction()" style="color: #fff; visibility: hidden; display: none; transition: opacity .5s, visibility .5s;" title="back to top">back to top</a>
 <br>
   <p class="mb0 mt2">
-  <a href="https://cc.poly2d.xyz/posts/2020-02-14_weaver/">prev post</a>
+  <a href="https://cc.poly2d.xyz/posts/2020-03-13_kawaranai_mono/">prev post</a>
   <a href="https://cc.poly2d.xyz/posts/2020-03-26_broke/">next post</a>
   </p>
 </div>
@@ -128,6 +130,16 @@ var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
 
+  
+  if (document.getElementById("tag-cloud") !== null) { 
+    if (prevScrollpos > currentScrollPos) { 
+      document.getElementById("tag-cloud").style.visibility = "visible";
+      document.getElementById("tag-cloud").style.opacity = "1";
+    } else {
+      document.getElementById("tag-cloud").style.visibility = "hidden";
+      document.getElementById("tag-cloud").style.opacity = "0";
+    }
+  }
   
 
   

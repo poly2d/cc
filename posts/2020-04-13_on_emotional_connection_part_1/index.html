@@ -69,8 +69,10 @@ type="image/x-icon"/>
         13 Apr 2020
       </time>
     
+     | 
     
     
+    tags: [ <a href='/tags/muse' class="link silver">muse</a> <a href='/tags/rant' class="link silver">rant</a>  ]
     
   </p>
   <div class="lh-copy post-content"><p>I&rsquo;m not quite sure where to start for what I said in the previous post, but I figure I at the end of the day I want to understand what love is, so why not use the MW definitons of <a href="https://www.merriam-webster.com/dictionary/love">love</a> as an entry point? Not like I&rsquo;m going to understand in one day, but a north star would be helpful because I&rsquo;m sure I&rsquo;ll get lost along the way.</p>
@@ -181,6 +183,16 @@ var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
 
+  
+  if (document.getElementById("tag-cloud") !== null) { 
+    if (prevScrollpos > currentScrollPos) { 
+      document.getElementById("tag-cloud").style.visibility = "visible";
+      document.getElementById("tag-cloud").style.opacity = "1";
+    } else {
+      document.getElementById("tag-cloud").style.visibility = "hidden";
+      document.getElementById("tag-cloud").style.opacity = "0";
+    }
+  }
   
 
   

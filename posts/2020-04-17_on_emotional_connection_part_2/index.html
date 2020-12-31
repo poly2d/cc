@@ -72,8 +72,10 @@ type="image/x-icon"/>
         17 Apr 2020
       </time>
     
+     | 
     
     
+    tags: [ <a href='/tags/muse' class="link silver">muse</a> <a href='/tags/rant' class="link silver">rant</a>  ]
     
   </p>
   <div class="lh-copy post-content"><p>Continuing the ludicrous exploration which set off my previous post, I&rsquo;d like to revisit the term <em>attached</em>. The definition is reproduced below:</p>
@@ -133,7 +135,7 @@ type="image/x-icon"/>
 <br>
   <p class="mb0 mt2">
   <a href="https://cc.poly2d.xyz/posts/2020-04-13_on_emotional_connection_part_1/">prev post</a>
-  
+  <a href="https://cc.poly2d.xyz/posts/2020-04-23_bios/">next post</a>
   </p>
 </div>
 
@@ -155,6 +157,16 @@ var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
 
+  
+  if (document.getElementById("tag-cloud") !== null) { 
+    if (prevScrollpos > currentScrollPos) { 
+      document.getElementById("tag-cloud").style.visibility = "visible";
+      document.getElementById("tag-cloud").style.opacity = "1";
+    } else {
+      document.getElementById("tag-cloud").style.visibility = "hidden";
+      document.getElementById("tag-cloud").style.opacity = "0";
+    }
+  }
   
 
   

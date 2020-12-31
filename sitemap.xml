@@ -4,6 +4,36 @@
   
   <url>
     <loc>https://cc.poly2d.xyz/</loc>
+    <lastmod>2020-04-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cc.poly2d.xyz/tags/piano/</loc>
+    <lastmod>2020-04-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cc.poly2d.xyz/posts/</loc>
+    <lastmod>2020-04-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cc.poly2d.xyz/tags/</loc>
+    <lastmod>2020-04-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cc.poly2d.xyz/tags/youtube/</loc>
+    <lastmod>2020-04-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cc.poly2d.xyz/posts/2020-04-23_bios/</loc>
+    <lastmod>2020-04-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cc.poly2d.xyz/tags/muse/</loc>
     <lastmod>2020-04-17T00:00:00+00:00</lastmod>
   </url>
   
@@ -13,7 +43,7 @@
   </url>
   
   <url>
-    <loc>https://cc.poly2d.xyz/posts/</loc>
+    <loc>https://cc.poly2d.xyz/tags/rant/</loc>
     <lastmod>2020-04-17T00:00:00+00:00</lastmod>
   </url>
   
@@ -68,6 +98,11 @@
   </url>
   
   <url>
+    <loc>https://cc.poly2d.xyz/posts/2020-03-13_kawaranai_mono/</loc>
+    <lastmod>2020-03-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://cc.poly2d.xyz/posts/2020-02-14_weaver/</loc>
     <lastmod>2020-02-14T00:00:00+00:00</lastmod>
   </url>
@@ -75,6 +110,11 @@
   <url>
     <loc>https://cc.poly2d.xyz/posts/2019-12-29_senbon19/</loc>
     <lastmod>2019-12-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cc.poly2d.xyz/tags/periscope/</loc>
+    <lastmod>2019-10-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -99,10 +139,6 @@
   
   <url>
     <loc>https://cc.poly2d.xyz/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://cc.poly2d.xyz/tags/</loc>
   </url>
   
 </urlset>

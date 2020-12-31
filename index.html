@@ -14,7 +14,7 @@
 <meta property="og:url" content="https://cc.poly2d.xyz/" />
 
 
-<meta property="og:updated_time" content="2020-04-17T00:00:00&#43;00:00"/>
+<meta property="og:updated_time" content="2020-04-23T00:00:00&#43;00:00"/>
 
 
 
@@ -83,6 +83,24 @@ type="image/x-icon"/>
   <ul class="list pa0">
     
     <li class="mb2">
+      <a class="f5 heading-color heading-font fw6 no-underline link" href="https://cc.poly2d.xyz/posts/2020-04-23_bios/">
+        ßios (YT)
+      </a>
+      <p class="f6 mt1 silver">
+        <time>
+          
+          <b>day 30</b> /
+          23 Apr 2020
+        </time>
+         | 
+        
+        
+        tags: [ <a href='/tags/piano' class="link silver">piano</a> <a href='/tags/youtube' class="link silver">youtube</a>  ]
+        
+      </p>
+    </li>
+    
+    <li class="mb2">
       <a class="f5 heading-color heading-font fw6 no-underline link" href="https://cc.poly2d.xyz/posts/2020-04-17_on_emotional_connection_part_2/">
         On Emotional Connection, part 2
       </a>
@@ -92,8 +110,10 @@ type="image/x-icon"/>
           <b>day 24</b> /
           17 Apr 2020
         </time>
+         | 
         
         
+        tags: [ <a href='/tags/muse' class="link silver">muse</a> <a href='/tags/rant' class="link silver">rant</a>  ]
         
       </p>
     </li>
@@ -108,8 +128,10 @@ type="image/x-icon"/>
           <b>day 20</b> /
           13 Apr 2020
         </time>
+         | 
         
         
+        tags: [ <a href='/tags/muse' class="link silver">muse</a> <a href='/tags/rant' class="link silver">rant</a>  ]
         
       </p>
     </li>
@@ -124,8 +146,10 @@ type="image/x-icon"/>
           <b>day 17</b> /
           10 Apr 2020
         </time>
+         | 
         
         
+        tags: [ <a href='/tags/muse' class="link silver">muse</a> <a href='/tags/rant' class="link silver">rant</a>  ]
         
       </p>
     </li>
@@ -140,8 +164,10 @@ type="image/x-icon"/>
           <b>day 16</b> /
           09 Apr 2020
         </time>
+         | 
         
         
+        tags: [ <a href='/tags/muse' class="link silver">muse</a> <a href='/tags/rant' class="link silver">rant</a>  ]
         
       </p>
     </li>
@@ -156,8 +182,10 @@ type="image/x-icon"/>
           <b>day 15</b> /
           08 Apr 2020
         </time>
+         | 
         
         
+        tags: [ <a href='/tags/rant' class="link silver">rant</a>  ]
         
       </p>
     </li>
@@ -172,8 +200,10 @@ type="image/x-icon"/>
           <b>day 11</b> /
           04 Apr 2020
         </time>
+         | 
         
         
+        tags: [ <a href='/tags/rant' class="link silver">rant</a>  ]
         
       </p>
     </li>
@@ -188,8 +218,10 @@ type="image/x-icon"/>
           <b>day 7</b> /
           31 Mar 2020
         </time>
+         | 
         
         
+        tags: [ <a href='/tags/rant' class="link silver">rant</a>  ]
         
       </p>
     </li>
@@ -204,8 +236,10 @@ type="image/x-icon"/>
           <b>day 4</b> /
           28 Mar 2020
         </time>
+         | 
         
         
+        tags: [ <a href='/tags/rant' class="link silver">rant</a>  ]
         
       </p>
     </li>
@@ -220,24 +254,10 @@ type="image/x-icon"/>
           <b>day 3</b> /
           27 Mar 2020
         </time>
+         | 
         
         
-        
-      </p>
-    </li>
-    
-    <li class="mb2">
-      <a class="f5 heading-color heading-font fw6 no-underline link" href="https://cc.poly2d.xyz/posts/2020-03-26_broke/">
-        Broke
-      </a>
-      <p class="f6 mt1 silver">
-        <time>
-          
-          <b>day 2</b> /
-          26 Mar 2020
-        </time>
-        
-        
+        tags: [ <a href='/tags/rant' class="link silver">rant</a>  ]
         
       </p>
     </li>
@@ -245,6 +265,21 @@ type="image/x-icon"/>
   </ul>
 </main>
 
+
+<div class="dn tr fixed right-2" id="tag-cloud">
+    tags <br>
+    
+    <a class="silver no-underline" href="/tags/rant">rant</a></li>
+  
+    <a class="silver no-underline" href="/tags/piano">piano</a></li>
+  
+    <a class="silver no-underline" href="/tags/muse">muse</a></li>
+  
+    <a class="silver no-underline" href="/tags/periscope">periscope</a></li>
+  
+    <a class="silver no-underline" href="/tags/youtube">youtube</a></li>
+  
+</div>
 
 
 <div class="pagination tc db fixed-l bottom-2-l right-2-l mb3 mb0-l">
@@ -277,6 +312,16 @@ var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
 
+  
+  if (document.getElementById("tag-cloud") !== null) { 
+    if (prevScrollpos > currentScrollPos) { 
+      document.getElementById("tag-cloud").style.visibility = "visible";
+      document.getElementById("tag-cloud").style.opacity = "1";
+    } else {
+      document.getElementById("tag-cloud").style.visibility = "hidden";
+      document.getElementById("tag-cloud").style.opacity = "0";
+    }
+  }
   
 
   

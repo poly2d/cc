@@ -77,8 +77,10 @@ type="image/x-icon"/>
         28 Mar 2020
       </time>
     
+     | 
     
     
+    tags: [ <a href='/tags/rant' class="link silver">rant</a>  ]
     
   </p>
   <div class="lh-copy post-content"><p>Today I re-listened to the Radwimps song from <em>Weathering with You</em>.</p>
@@ -139,6 +141,16 @@ var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
 
+  
+  if (document.getElementById("tag-cloud") !== null) { 
+    if (prevScrollpos > currentScrollPos) { 
+      document.getElementById("tag-cloud").style.visibility = "visible";
+      document.getElementById("tag-cloud").style.opacity = "1";
+    } else {
+      document.getElementById("tag-cloud").style.visibility = "hidden";
+      document.getElementById("tag-cloud").style.opacity = "0";
+    }
+  }
   
 
   

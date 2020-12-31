@@ -71,8 +71,10 @@ type="image/x-icon"/>
         31 Aug 2019
       </time>
     
+     | 
     
     
+    tags: [ <a href='/tags/piano' class="link silver">piano</a> <a href='/tags/periscope' class="link silver">periscope</a>  ]
     
   </p>
   <div class="lh-copy post-content">
@@ -149,6 +151,16 @@ var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
 
+  
+  if (document.getElementById("tag-cloud") !== null) { 
+    if (prevScrollpos > currentScrollPos) { 
+      document.getElementById("tag-cloud").style.visibility = "visible";
+      document.getElementById("tag-cloud").style.opacity = "1";
+    } else {
+      document.getElementById("tag-cloud").style.visibility = "hidden";
+      document.getElementById("tag-cloud").style.opacity = "0";
+    }
+  }
   
 
   

@@ -73,8 +73,10 @@ type="image/x-icon"/>
         26 Mar 2020
       </time>
     
+     | 
     
     
+    tags: [ <a href='/tags/rant' class="link silver">rant</a>  ]
     
   </p>
   <div class="lh-copy post-content"><p>Every time I reread your words, I increasingly realize that you&rsquo;re on a different, much higher <em>stratum</em> than the one I am on.</p>
@@ -125,6 +127,16 @@ var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
 
+  
+  if (document.getElementById("tag-cloud") !== null) { 
+    if (prevScrollpos > currentScrollPos) { 
+      document.getElementById("tag-cloud").style.visibility = "visible";
+      document.getElementById("tag-cloud").style.opacity = "1";
+    } else {
+      document.getElementById("tag-cloud").style.visibility = "hidden";
+      document.getElementById("tag-cloud").style.opacity = "0";
+    }
+  }
   
 
   

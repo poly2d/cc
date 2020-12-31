@@ -72,8 +72,10 @@ type="image/x-icon"/>
         14 Feb 2020
       </time>
     
+     | 
     
     
+    tags: [ <a href='/tags/piano' class="link silver">piano</a> <a href='/tags/youtube' class="link silver">youtube</a>  ]
     
   </p>
   <div class="lh-copy post-content">
@@ -119,7 +121,7 @@ type="image/x-icon"/>
 <br>
   <p class="mb0 mt2">
   <a href="https://cc.poly2d.xyz/posts/2019-12-29_senbon19/">prev post</a>
-  <a href="https://cc.poly2d.xyz/posts/2020-03-24_meaning/">next post</a>
+  <a href="https://cc.poly2d.xyz/posts/2020-03-13_kawaranai_mono/">next post</a>
   </p>
 </div>
 
@@ -145,6 +147,16 @@ var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
 
+  
+  if (document.getElementById("tag-cloud") !== null) { 
+    if (prevScrollpos > currentScrollPos) { 
+      document.getElementById("tag-cloud").style.visibility = "visible";
+      document.getElementById("tag-cloud").style.opacity = "1";
+    } else {
+      document.getElementById("tag-cloud").style.visibility = "hidden";
+      document.getElementById("tag-cloud").style.opacity = "0";
+    }
+  }
   
 
   

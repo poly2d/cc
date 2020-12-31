@@ -6,9 +6,55 @@
     <description>Recent content in Tags on cc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Thu, 23 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://cc.poly2d.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>piano</title>
+      <link>https://cc.poly2d.xyz/tags/piano/</link>
+      <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://cc.poly2d.xyz/tags/piano/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>youtube</title>
+      <link>https://cc.poly2d.xyz/tags/youtube/</link>
+      <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://cc.poly2d.xyz/tags/youtube/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>muse</title>
+      <link>https://cc.poly2d.xyz/tags/muse/</link>
+      <pubDate>Fri, 17 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://cc.poly2d.xyz/tags/muse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rant</title>
+      <link>https://cc.poly2d.xyz/tags/rant/</link>
+      <pubDate>Fri, 17 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://cc.poly2d.xyz/tags/rant/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>periscope</title>
+      <link>https://cc.poly2d.xyz/tags/periscope/</link>
+      <pubDate>Sat, 19 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://cc.poly2d.xyz/tags/periscope/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

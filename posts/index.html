@@ -14,7 +14,7 @@
 <meta property="og:url" content="https://cc.poly2d.xyz/posts/" />
 
 
-<meta property="og:updated_time" content="2020-04-17T00:00:00&#43;00:00"/>
+<meta property="og:updated_time" content="2020-04-23T00:00:00&#43;00:00"/>
 
 
 
@@ -61,6 +61,8 @@ type="image/x-icon"/>
   
   <ul class="list-pages">
     
+      <li class="lh-copy"><a href="/posts/2020-04-23_bios/" class="link f5">ßios (YT)</a> - <time>23 Apr 2020</time></li>
+    
       <li class="lh-copy"><a href="/posts/2020-04-17_on_emotional_connection_part_2/" class="link f5">On Emotional Connection, part 2</a> - <time>17 Apr 2020</time></li>
     
       <li class="lh-copy"><a href="/posts/2020-04-13_on_emotional_connection_part_1/" class="link f5">On Emotional Connection, part 1</a> - <time>13 Apr 2020</time></li>
@@ -83,9 +85,11 @@ type="image/x-icon"/>
     
       <li class="lh-copy"><a href="/posts/2020-03-24_meaning/" class="link f5">Meaning</a> - <time>24 Mar 2020</time></li>
     
+      <li class="lh-copy"><a href="/posts/2020-03-13_kawaranai_mono/" class="link f5">変わらないもの</a> - <time>13 Mar 2020</time></li>
+    
       <li class="lh-copy"><a href="/posts/2020-02-14_weaver/" class="link f5">くちづけDiamond</a> - <time>14 Feb 2020</time></li>
     
-      <li class="lh-copy"><a href="/posts/2019-12-29_senbon19/" class="link f5">千本桜 YT</a> - <time>29 Dec 2019</time></li>
+      <li class="lh-copy"><a href="/posts/2019-12-29_senbon19/" class="link f5">千本桜 (YT)</a> - <time>29 Dec 2019</time></li>
     
       <li class="lh-copy"><a href="/posts/2019-10-10_twice4th/" class="link f5">Twice 4th Anniv Medley (live)</a> - <time>19 Oct 2019</time></li>
     
@@ -121,6 +125,16 @@ var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
 
+  
+  if (document.getElementById("tag-cloud") !== null) { 
+    if (prevScrollpos > currentScrollPos) { 
+      document.getElementById("tag-cloud").style.visibility = "visible";
+      document.getElementById("tag-cloud").style.opacity = "1";
+    } else {
+      document.getElementById("tag-cloud").style.visibility = "hidden";
+      document.getElementById("tag-cloud").style.opacity = "0";
+    }
+  }
   
 
   
