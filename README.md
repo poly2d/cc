@@ -6,3 +6,7 @@
 
 - [`master`](https://github.com/poly2d/cc/tree/master/) for source
 - [`gh-pages`](https://github.com/poly2d/cc/tree/gh-pages) for published content
+
+##### Favicon
+
+`dice-d20` from https://github.com/devgg/FontIcon.
