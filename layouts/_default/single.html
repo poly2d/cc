@@ -18,6 +18,7 @@
     {{ end }}
   </p>
   <div class="lh-copy post-content">{{ .Content }}</div>
+  {{ partial "comments" . }}
 </main>
 {{ partial "table-of-contents" . }}
 
