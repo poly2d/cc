@@ -1,6 +1,10 @@
+# worktrees
 public
+comment-server
 
+# drafts
 content/drafts
 themes/*_local
 
+# misc
 .DS_Store
