@@ -7,9 +7,9 @@ services:
             - "80:{{ nginx_http_port }}"
             - "443:{{ nginx_https_port }}"
         volumes:
-            - {{ dir_nginx_conf }}
-            - {{ dir_letsencrypt }}
-            - {{ dir_certbot }}
+            - {{ path_nginx_conf }}
+            - {{ path_cert }}
+            - {{ path_certbot }}
         # Make nginx reload its configuration and certificates every six hours in the background
         # Launch nginx in the foreground
         command: "/bin/sh -c 'while :; do sleep 6h & wait $${!}; nginx -s reload; done & nginx -g \"daemon off;\"'"
@@ -17,8 +17,8 @@ services:
     certbot:
         image: certbot/certbot
         volumes:
-            - {{ dir_letsencrypt }}
-            - {{ dir_certbot }}
+            - {{ path_cert }}
+            - {{ path_certbot }}
         # Verify that certificate is up for renewal every 12 hours
         entrypoint: "/bin/sh -c 'trap exit TERM; while :; do certbot renew; sleep 12h & wait $${!}; done;'"
 
@@ -36,7 +36,7 @@ services:
                 max-file: "5"
 
         environment:
-            - REMARK_URL=https://{{ remark_subdomain }}.{{ remark_domain }}
+            - REMARK_URL=https://{{ server_url }}
             - SITE={{ remark_site }}
             - SECRET={{ remark_secret }}
             - ADMIN_SHARED_ID={{ admin_shared_id }}
@@ -46,4 +46,4 @@ services:
             - TIME_ZONE={{ timezone }}
 
         volumes:
-            - {{ dir_remark }}
+            - {{ path_remark_db }}

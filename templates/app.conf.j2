@@ -1,0 +1,26 @@
+server {
+    listen {{ nginx_https_port }} ssl;
+    server_name {{ server_url }};
+
+    ssl_certificate {{ path_ssl_certificate }};
+    ssl_certificate_key {{ path_ssl_certificate_key }};
+    include {{ path_ssl_nginx_conf }};
+    ssl_dhparam {{ path_ssl_dhparam }};
+
+    location / {
+        proxy_pass http://{{ remark_container }}:{{ remark_local_port }};
+    }
+}
+
+server {
+    listen {{ nginx_http_port }};
+    server_name {{ server_url }};
+
+    location /.well-known/acme-challenge/ {
+        root {{ dir_certbot_acme_challenge }};
+    }
+
+    location / {
+        return 301 https://$host$request_uri;
+    }
+}
