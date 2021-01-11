@@ -1,0 +1,16 @@
+---
+
+- hosts: server
+
+  vars_files:
+    - './vars/vault.yaml'
+
+  tasks:
+    - name: generate nginx conf
+      template:
+        src: "app.conf.j2"
+        dest: "{{ dir_nginx_data }}/app.conf"
+    - name: generate docker compose conf
+      template:
+        src: "docker-compose.yaml.j2"
+        dest: "docker-compose.yaml"
