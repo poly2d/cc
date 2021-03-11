@@ -13,8 +13,8 @@
       <p class="f6 mt1 silver">
         <time>
           <!-- number of days elapsed -->
-          <b>day {{ div (sub .Date.Unix 1585008000) 86400 }}</b> /
-          {{ .Date.Format "02 Jan 2006" }}
+          <!-- <b>day {{ div (sub .Date.Unix 1585008000) 86400 }}</b> / -->
+          <b>{{ .Date.Format "02 Jan 2006" }}</b>
         </time>
         {{ if or .Params.tags .Params.categories }} | {{ end }}
         {{ if isset .Params "categories" }}

@@ -5,8 +5,8 @@
     {{ if not .Date.IsZero }}
       <time>
         <!-- number of days elapsed -->
-        <b>day {{ div (sub .Date.Unix 1585008000) 86400 }}</b> /
-        {{ .Date.Format "02 Jan 2006" }}
+        <!-- <b>day {{ div (sub .Date.Unix 1585008000) 86400 }}</b> / -->
+        <b>{{ .Date.Format "02 Jan 2006" }}</b>
       </time>
     {{ end }}
     {{ if or .Params.tags .Params.categories .Params.series }} | {{ end }}
@@ -18,7 +18,7 @@
     {{ end }}
   </p>
   <div class="lh-copy post-content">{{ .Content }}</div>
-  {{ partial "comments" . }}
+  <!--{{ partial "comments" . }}-->
 </main>
 {{ partial "table-of-contents" . }}
 

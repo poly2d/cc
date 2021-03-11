@@ -2,7 +2,7 @@ baseURL = "https://cc.poly2d.xyz"
 languageCode = "en-us"
 title = "cc"
 
-paginate = 10
+paginate = 8
 paginatePath = "p"
 
 [params]
